@@ -14,10 +14,10 @@ export default function DoonGuidePoster() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-4">
             {/* Left: Logo */}
             <div className="flex-shrink-0">
-              <img 
-                src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F9046ef5e810c48e78a6b3f1977ae1fdf?format=webp&width=800" 
-                alt="DIT Logo" 
-                className="w-20 h-20 object-contain" 
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F9046ef5e810c48e78a6b3f1977ae1fdf?format=webp&width=800"
+                alt="DIT Logo"
+                className="w-32 h-32 md:w-40 md:h-40 object-contain"
               />
             </div>
 
@@ -210,10 +210,10 @@ export default function DoonGuidePoster() {
         {/* Footer */}
         <div className="bg-gradient-to-r from-primary to-secondary text-white p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex-shrink-0">
-            <img 
-              src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F9046ef5e810c48e78a6b3f1977ae1fdf?format=webp&width=800" 
-              alt="DIT Logo" 
-              className="w-12 h-12 object-contain" 
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F9046ef5e810c48e78a6b3f1977ae1fdf?format=webp&width=800"
+              alt="DIT Logo"
+              className="w-20 h-20 object-contain"
             />
           </div>
 
