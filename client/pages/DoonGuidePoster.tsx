@@ -33,9 +33,11 @@ export default function DoonGuidePoster() {
 
             {/* Right: QR Code */}
             <div className="flex-shrink-0 text-center">
-              <div className="w-24 h-24 md:w-28 md:h-28 bg-gradient-to-br from-gray-200 to-gray-300 border-2 border-primary rounded flex items-center justify-center shadow-md">
-                <span className="text-xs font-inter font-bold text-doon-gray">QR</span>
-              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F2fdec21a824643829202aa82b7d6dde0?format=webp&width=800"
+                alt="QR Code"
+                className="w-24 h-24 md:w-28 md:h-28 object-contain shadow-md border-2 border-primary rounded"
+              />
               <p className="text-xs mt-2 font-inter text-doon-gray">Scan to View</p>
             </div>
           </div>
@@ -227,9 +229,11 @@ export default function DoonGuidePoster() {
           </div>
 
           <div className="flex-shrink-0 text-center">
-            <div className="w-16 h-16 bg-white rounded flex items-center justify-center shadow-md">
-              <span className="text-xs font-inter font-bold text-primary">QR</span>
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F2fdec21a824643829202aa82b7d6dde0?format=webp&width=800"
+              alt="QR Code"
+              className="w-16 h-16 object-contain shadow-md rounded"
+            />
             <p className="text-xs mt-1 opacity-90">Website</p>
           </div>
         </div>
