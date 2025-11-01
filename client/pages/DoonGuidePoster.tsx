@@ -8,11 +8,9 @@ export default function DoonGuidePoster() {
         {/* Header Section */}
         <div className="bg-white border-b-4 border-primary p-8 md:p-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-8">
-            {/* DIT Logo placeholder */}
+            {/* College Logo */}
             <div className="flex-shrink-0">
-              <div className="w-16 h-16 md:w-20 md:h-20 bg-primary rounded-lg flex items-center justify-center shadow-md">
-                <span className="text-white font-bold text-lg">DIT</span>
-              </div>
+              <img src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F54b3cb1cfbb94496817b8742f09259d8?format=webp&width=800" alt="College Logo" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             </div>
 
             {/* Main Title */}
@@ -188,11 +186,9 @@ export default function DoonGuidePoster() {
         {/* Footer */}
         <div className="bg-gradient-to-r from-primary to-secondary bg-opacity-95 text-white p-8 md:p-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            {/* Left: DIT Logo */}
+            {/* Left: College Logo */}
             <div className="flex-shrink-0">
-              <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-md">
-                <span className="text-primary font-bold text-sm">DIT</span>
-              </div>
+              <img src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F54b3cb1cfbb94496817b8742f09259d8?format=webp&width=800" alt="College Logo" className="w-12 h-12 object-contain" />
             </div>
 
             {/* Center: Creator Info */}
