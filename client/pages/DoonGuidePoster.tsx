@@ -17,7 +17,7 @@ export default function DoonGuidePoster() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F9046ef5e810c48e78a6b3f1977ae1fdf?format=webp&width=800"
                 alt="DIT Logo"
-                className="w-32 h-32 md:w-40 md:h-40 object-contain"
+                className="w-48 h-48 md:w-56 md:h-56 object-contain"
               />
             </div>
 
