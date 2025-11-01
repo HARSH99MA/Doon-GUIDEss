@@ -10,7 +10,7 @@ export default function DoonGuidePoster() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-8">
             {/* College Logo */}
             <div className="flex-shrink-0">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F54b3cb1cfbb94496817b8742f09259d8?format=webp&width=800" alt="College Logo" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
+              <img src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F9046ef5e810c48e78a6b3f1977ae1fdf?format=webp&width=800" alt="College Logo" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             </div>
 
             {/* Main Title */}
@@ -60,15 +60,17 @@ export default function DoonGuidePoster() {
           </div>
           <div className="bg-gradient-to-br from-slate-50 to-slate-100 border-4 border-primary rounded-xl p-8 md:p-12 shadow-lg">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-              {['Home Screen – Explore Dehradun', 'Nearby Attractions', 'Map Navigation', 'Cafes & Food Recommendations', 'Community Stories & Events', 'Travel Planning'].map((title, idx) => (
-                <div key={idx} className="bg-white rounded-lg border-4 border-primary shadow-lg p-4 hover:shadow-xl transition-shadow">
-                  <div className="aspect-video bg-gradient-to-br from-secondary to-blue-400 rounded-lg mb-3 flex items-center justify-center">
-                    <div className="text-white text-center">
-                      <div className="text-2xl mb-2">📱</div>
-                      <span className="text-xs font-inter font-semibold">App Screen</span>
-                    </div>
-                  </div>
-                  <p className="font-nunito font-semibold text-sm text-primary">{title}</p>
+              {[
+                { title: 'Home Screen – Explore Dehradun', img: 'https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F71ec9fef3b364e91886ffa30df3e3edf?format=webp&width=800' },
+                { title: 'Popular Guides Near You', img: 'https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F1525675367bd4869a7bd74356c9575db?format=webp&width=800' },
+                { title: 'Guide Profile & Details', img: 'https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2Fc25f23c06d184e77a810b831253eab60?format=webp&width=800' },
+                { title: 'Explore Dehradun & Nearby', img: 'https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F8c9197c55dd64a4a9de103b0e72a545e?format=webp&width=800' },
+                { title: 'Weekend Trips & Events', img: 'https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F71ec9fef3b364e91886ffa30df3e3edf?format=webp&width=800' },
+                { title: 'Safety & Verification', img: 'https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F1525675367bd4869a7bd74356c9575db?format=webp&width=800' },
+              ].map((screen, idx) => (
+                <div key={idx} className="bg-white rounded-lg border-4 border-primary shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                  <img src={screen.img} alt={screen.title} className="w-full aspect-video object-cover" />
+                  <p className="font-nunito font-semibold text-sm text-primary p-3">{screen.title}</p>
                 </div>
               ))}
             </div>
@@ -188,7 +190,7 @@ export default function DoonGuidePoster() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Left: College Logo */}
             <div className="flex-shrink-0">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F54b3cb1cfbb94496817b8742f09259d8?format=webp&width=800" alt="College Logo" className="w-12 h-12 object-contain" />
+              <img src="https://cdn.builder.io/api/v1/image/assets%2F00974640ca8c40aa9cc4806fcc2a0b70%2F9046ef5e810c48e78a6b3f1977ae1fdf?format=webp&width=800" alt="College Logo" className="w-12 h-12 object-contain" />
             </div>
 
             {/* Center: Creator Info */}
